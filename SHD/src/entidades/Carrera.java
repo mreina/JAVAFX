@@ -5,6 +5,8 @@ public class Carrera {
 	private int matricula,id;
 	private boolean acreditada;
 	
+	/*MEJORANDO CODIGO HILL BILL*/
+	
 	public Carrera() {
 		// TODO Auto-generated constructor stub
 		this.acreditada=false;

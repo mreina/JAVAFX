@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="742.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <BorderPane prefHeight="494.0" prefWidth="742.0">
+      <left>
+        <ToolBar prefHeight="494.0" BorderPane.alignment="TOP_CENTER">
+          <items>
+            <VBox prefHeight="374.0000999999975" prefWidth="100.0" spacing="10.0">
+              <children>
+                <Button mnemonicParsing="false" prefWidth="100.0" text="CARRERA">
+                  <font>
+                    <Font name="Arial Narrow Bold" size="16.0" fx:id="x1" />
+                  </font>
+                </Button>
+                <Button font="$x1" mnemonicParsing="false" prefWidth="100.0" text="ALUMNOS" />
+                <Button font="$x1" mnemonicParsing="false" prefWidth="100.0" text="SALIR" />
+              </children>
+            </VBox>
+          </items>
+        </ToolBar>
+      </left>
+    </BorderPane>
+  </children>
+  <effect>
+    <Glow />
+  </effect>
+</AnchorPane>
